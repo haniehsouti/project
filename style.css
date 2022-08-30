@@ -1,0 +1,203 @@
+/*Googlefont*/
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/*functional*/
+/*service-part1*/
+a.link1-tab,.link2-tab,
+.link3-tab,.link4-tab,.link5-tab
+{
+    color: rgb(33, 33, 33);
+}
+a.link1-tab:hover
+{
+    color: rgb(196, 163, 124);
+}
+a.link2-tab:hover
+{
+    color: rgb(196, 163, 124);
+}
+a.link3-tab:hover
+{
+    color: rgb(196, 163, 124);
+}a.link4-tab:hover
+{
+    color: rgb(196, 163, 124);
+}a.link5-tab:hover
+{
+    color: rgb(196, 163, 124);
+}
+i.bi-footer
+{
+    color: rgb(37, 37, 37);
+}
+i.bi-footer:hover
+{
+    color: rgb(196, 163, 124);
+}
+option:hover
+{
+    background-color: blueviolet;
+}
+/*font-family*/
+.fontstyle-default1
+{
+    font-family: 'Play', sans-serif;
+}
+.fontstyle-default2
+{
+    font-family: 'Dancing Script', cursive;
+}
+/*container*/
+.container
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/*sizing*/
+.w-15
+{
+    width: 90px;
+}
+/*font-size*/
+.h7
+{
+    font-size: 10pt;
+}
+.h8
+{
+    font-size: 11pt;
+}
+.h9
+{
+    font-size: 7.5pt;
+}
+.h10
+{
+    font-size: 9.3pt;
+}
+/*bg-color*/
+.bg-pink
+{
+    background-color: rgb(196, 163, 124);
+}
+.bg-dark1
+{
+    background-color: rgb(33, 33, 33);
+}
+.bg-pink1
+{
+    background-color: rgb(250, 234, 215);
+}
+.bg-dark2
+{
+    background-color: rgba(49, 49, 49, 0.795);
+}
+/*color*/
+.text-pink
+{
+    color: rgb(196, 163, 124);
+}
+/*bg-image*/
+.bg-image-services
+{
+    background:url('http://webdesign-finder.com/techup/wp-content/uploads/2019/06/bg03.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*padding*/
+.px-6
+{
+    padding-left: 5.5rem!important;
+    padding-right: 5.5rem!important;
+}
+.pt-6
+{
+    padding-top: 2.5rem!important;
+}
+.pb-6
+{
+    padding-bottom: 2.5rem!important;
+}
+.py-6
+{
+    padding-top: 2.5rem!important;
+    padding-bottom: 2.5rem!important;
+}
+.py-7
+{
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+.pt-9
+{
+    padding-top: 180px;
+}
+.pt-7
+{
+    padding-top: 90px;
+}
+.py-8
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/*margin*/
+.mt-6
+{
+    margin-top: 5rem;
+}
+/*btn-myself*/
+.btn-black
+{
+    border: 1px solid rgb(32, 32, 32);
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding: 9px ;
+}
+.btn-black:hover
+{
+    border: 1px solid rgb(196, 163, 124);
+    background-color: rgb(196, 163, 124);
+    color: white;
+    padding: 9px ;
+}
+.btn-pink
+{
+    border: 1px solid rgb(196, 163, 124);
+    background-color: rgb(196, 163, 124);
+    color: white;
+    padding: 9px ;
+}
+.btn-pink:hover
+{
+    border: 1px solid rgb(32, 32, 32);
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding: 9px ;
+}
+/*border*/
+.line1
+{
+    border: 1px solid rgba(32, 32, 32, 0.596);
+}
+/*etc*/
+.zoom 
+{
+    transition: transform .2s; /* Animation */
+}
+  
+.zoom:hover
+{
+    object-fit: contain;
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.img-wrapper
+{
+    display: inline-block; /* change the default display type to inline-block */
+    overflow: hidden;      /* hide the overflow */
+}
+.box1 , .box2 , .box3 , .box4
+{
+    transition:transform 1s;
+    animation-iteration-count: infinite;
+}
